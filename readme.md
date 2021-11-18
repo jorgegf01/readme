@@ -93,4 +93,12 @@ git config --global alias.s status (cria o apelido s para o comando status)
 tag:
 git tag -a 1.0.0.0 -m "readme.md finalizado"
 
-git push oringin master --tags
+git push origin main --tags
+
+git revert (reverte um commit)
+
+apagar uma tag no github:
+git push oringin :1.0.0
+
+apagar um branch no github:
+git push oringin :nome_da_branch
