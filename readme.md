@@ -89,3 +89,8 @@ alias:
 cria apelidos para os comandos
 exemplo:
 git config --global alias.s status (cria o apelido s para o comando status)
+
+tag:
+git tag -a 1.0.0.0 -m "readme.md finalizado"
+
+git push oringin master --tags
