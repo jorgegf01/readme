@@ -64,3 +64,28 @@ git branch -M main
 Enviar para o github:
 git branch -M main
 
+Criar um branch:
+git branch teste
+
+mudar de branch:
+git checkout teste
+
+deletar um branch:
+git branch -D teste
+
+uniao dos branches:
+
+
+Criando o .gitignore
+
+Exemplo: cria o arquivo .gitignore e escreve *.json
+
+Git stash
+grava o arquivo em uma pasta que e chamado quando necessario
+git stash apply (para salvar as mudancas)
+
+
+alias:
+cria apelidos para os comandos
+exemplo:
+git config --global alias.s status (cria o apelido s para o comando status)
