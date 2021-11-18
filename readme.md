@@ -34,10 +34,33 @@ git checkout readme.md (modifica o arquivo para um estado anterior)
 
 git reset HEAD readme.md (volta o arquivo que ja foi add para o estado anterior)
 
-git reset --soft (volta o arquivo do commit mas fica pronto para o commit)
+git reset --soft +codigo hash (volta o arquivo do commit mas fica pronto para o commit)
 
-git reset --mixed (volta o arquivo do commit e modifica o arquivo)
+git reset --mixed +codigo hash(volta o arquivo do commit e modifica o arquivo)
 
-git reset --hard (volta o arquivo do commit ignorando tudo o que foi feito nele)
+git reset --hard +codigo hash(volta o arquivo do commit ignorando tudo o que foi feito nele)
 
+Exemplo:
+git reset --soft 206f669ed5e7d6aa787980a26d04a7de972ff22
+
+Gerar chave ssh:
+ssh-keygen -t rsa -b 4096 -C "jorgegfrc@gmail.com"
+
+Adicionar no github:
+
+https://github.com/settings/keys
+
+ver o remote na maquina:
+git remote -v
+
+remover o remote:
+git remote remove origin
+
+adicionar remote:
+git remote add origin git@github.com:jorgegf01/readme.git
+
+git branch -M main
+
+Enviar para o github:
+git branch -M main
 
